@@ -16,13 +16,13 @@ That's it, so I create this package for my projects to re-use. Well, if you want
 For Laravel 5.5+:
 
 ```
-$ composer require "petehouston/laravel-tinymce-simple-imageupload:~1.3"
+$ composer require "adrielpin/laravel-tinymce-simple-imageupload:~1.3"
 ```
 
 For Laravel before 5.5:
 
 ```
-$ composer require "petehouston/laravel-tinymce-simple-imageupload:~1.1"
+$ composer require "adrielpin/laravel-tinymce-simple-imageupload:~1.1"
 ```
 
 For laravel version 5.4 and older, you need to register the service provider in  `config/app.php`.
@@ -31,7 +31,7 @@ For laravel version 5.4 and older, you need to register the service provider in 
     'providers' => [
         ...
 
-        Petehouston\Tinymce\TinymceServiceProvider::class,
+        Adrielpin\Tinymce\TinymceServiceProvider::class,
 
     ]
 ```
@@ -81,7 +81,7 @@ Route::get('/tinymce_example', function () {
 
 **The image upload handler**
 
-I setup already a controller [`Petehouston\Tinymce\TinymceController`](https://github.com/petehouston/laravel-tinymce-simple-imageupload/blob/master/src/TinymceController.php) which implements a method for image uploading.
+I setup already a controller [`Adrielpin\Tinymce\TinymceController`](https://github.com/Adrielpin/laravel-tinymce-simple-imageupload/blob/master/src/TinymceController.php) which implements a method for image uploading.
 
 As you can see it will store all uploaded images in `public/img` directory, the name is like a concatenated hash,
 
@@ -101,6 +101,6 @@ While including the uploading form, pass in the url of handling post image uploa
 @include('mceImageUpload::upload_form', ['upload_url' => 'YOUR_URL_FOR_HANDLING_IMAGE_UPLOAD'])
 ```
 
-Add a method for handling image upload that **should return the same result** as in [`Petehouston\Tinymce\TinymceController`](https://github.com/petehouston/laravel-tinymce-simple-imageupload/blob/master/src/TinymceController.php).
+Add a method for handling image upload that **should return the same result** as in [`Adrielpin\Tinymce\TinymceController`](https://github.com/Adrielpin/laravel-tinymce-simple-imageupload/blob/master/src/TinymceController.php).
 
 
