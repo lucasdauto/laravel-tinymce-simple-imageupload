@@ -1,3 +1,3 @@
 <?php
 
-Route::post('/tinymce/simple-image-upload', 'Petehouston\Tinymce\TinymceController@uploadImage')->name('tinymce.imageupload');
+Route::post('/tinymce/simple-image-upload', 'Adrielpin\Tinymce\TinymceController@uploadImage')->name('tinymce.imageupload');
