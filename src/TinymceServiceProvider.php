@@ -1,6 +1,6 @@
 <?php
 
-namespace Petehouston\Tinymce;
+namespace Adrielpin\Tinymce;
 
 use Illuminate\Support\ServiceProvider;
 

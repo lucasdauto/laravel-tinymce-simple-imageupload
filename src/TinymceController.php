@@ -1,6 +1,6 @@
 <?php
 
-namespace Petehouston\Tinymce;
+namespace Adrielpin\Tinymce;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
