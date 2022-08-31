@@ -1,5 +1,5 @@
 {
-    "name": "adrielpin/laravel-tinymce-simple-imageupload",
+    "name": "lucasdauto/laravel-tinymce-simple-imageupload",
     "description": "Simple image upload for TinyMCE in Laravel.",
     "version": "1.3.0",
     "type": "library",
@@ -11,7 +11,7 @@
         "image upload",
         "php"
     ],
-    "homepage": "https://github.com/Adrielpin/laravel-tinymce-simple-imageupload",
+    "homepage": "https://github.com/lucasdauto/laravel-tinymce-simple-imageupload",
     "authors": [
         {
             "name": "Adriel Pinheiro",
@@ -25,13 +25,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Adrielpin\\Tinymce\\": "src"
+            "lucasdauto\\Tinymce\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Adrielpin\\Tinymce\\TinymceServiceProvider"
+                "lucasdauto\\Tinymce\\TinymceServiceProvider"
             ]
         }
     }
